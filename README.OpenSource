@@ -1,0 +1,11 @@
+[
+    {
+        "Name"                  : "fsverity-utils",
+        "License"               : "MIT License",
+        "License File"          : "LICENSE",
+        "Version Number"        : "v1.5",
+        "Owner"                 : "lihehao@huawei.com",
+        "Upstream URL"          : "https://git.kernel.org/pub/scm/fs/fsverity/fsverity-utils.git",
+        "Description"           : "a Linux kernel feature that does transparent on-demand integrity/authenticity verification of the contents of read-only files, using a hidden Merkle tree (hash tree) associated with the file"
+    }
+]
