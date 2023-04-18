@@ -5,26 +5,25 @@
     "license": "MIT",
     "publishAs": "code-segment",
     "segment": {
-      "destPath": "third_party/fsverity_utils"
+        "destPath": "third_party/fsverity_utils"
     },
     "dirs": {},
     "scripts": {},
     "component": {
-      "name": "thirdparty_fsverity_utils",
-      "subsystem": "thirdparty",
-      "syscap": [],
-      "features": [],
-      "adapted_system_type": ["standard"],
-      "rom": "",
-      "ram": "",
-      "deps": {
-        "components": []
-      },
-      "build": {
-        "sub_component": [],
-        "inner_kits": [],
-       "test": []
-     }
+        "name": "thirdparty_fsverity_utils",
+        "subsystem": "thirdparty",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": ["standard"],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
     }
-  }
-  
+}
