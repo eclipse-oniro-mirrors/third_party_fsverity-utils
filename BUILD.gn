@@ -41,7 +41,6 @@ ohos_shared_library("libfsverity_utils") {
     "common",
   ]
   deps = [
-    ":notice",
     "//third_party/openssl:libcrypto_shared",
   ]
   configs = [ ":common_config" ]
@@ -67,7 +66,6 @@ ohos_static_library("libfsverity_utils_static") {
   ]
   configs = [ ":common_config" ]
   deps = [
-    ":notice",
     "//third_party/openssl:libcrypto_static",
   ]
 }
