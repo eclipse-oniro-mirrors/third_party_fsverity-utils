@@ -28,8 +28,8 @@ please copy it to your project root dir and modify it refer to OpenHarmony/tools
             </policy>
         </policylist>
         <filefilterlist>
-            <filefilter name="defaultFilter" desc="Files not to check">
-                <filteritem type="filepath" name="testdata/*" desc="测试数据文件"/>
+            <filefilter name="binaryFileTypePolicyFilter" desc="binary file filter">
+                <filteritem type="filepath" name="testdata/.*" desc="测试数据文件"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
