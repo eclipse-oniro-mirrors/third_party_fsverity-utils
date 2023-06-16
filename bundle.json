@@ -5,12 +5,12 @@
     "license": "MIT",
     "publishAs": "code-segment",
     "segment": {
-        "destPath": "third_party/fsverity_utils"
+        "destPath": "third_party/fsverity-utils"
     },
     "dirs": {},
     "scripts": {},
     "component": {
-        "name": "thirdparty_fsverity_utils",
+        "name": "fsverity-utils",
         "subsystem": "thirdparty",
         "syscap": [],
         "features": [],
