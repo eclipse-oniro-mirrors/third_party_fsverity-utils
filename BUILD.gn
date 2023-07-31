@@ -40,15 +40,13 @@ ohos_shared_library("libfsverity_utils") {
     "include",
     "common",
   ]
-  deps = [
-    "//third_party/openssl:libcrypto_shared",
-  ]
+  deps = [ "//third_party/openssl:libcrypto_shared" ]
   configs = [ ":common_config" ]
   install_enable = true
 
   output_name = "libfsverity_utils"
-  part_name = "code_signature"
-  subsystem_name = "security"
+  part_name = "fsverity-utils"
+  subsystem_name = "thirdparty"
   install_images = [ "system" ]
 }
 
@@ -65,7 +63,5 @@ ohos_static_library("libfsverity_utils_static") {
     "common",
   ]
   configs = [ ":common_config" ]
-  deps = [
-    "//third_party/openssl:libcrypto_static",
-  ]
+  deps = [ "//third_party/openssl:libcrypto_static" ]
 }
