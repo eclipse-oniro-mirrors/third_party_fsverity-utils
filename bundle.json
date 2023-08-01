@@ -18,7 +18,10 @@
         "rom": "",
         "ram": "",
         "deps": {
-            "components": []
+            "components": [],
+            "third_party": [
+                "openssl"
+            ]
         },
         "build": {
             "sub_component": [],
