@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Huawei Device Co., Ltd.
+# Copyright (c) 2023-2024 Huawei Device Co., Ltd.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -28,6 +28,13 @@ config("common_config") {
   ]
 }
 
+config("libfsverity_public_config") {
+  include_dirs = [
+    "include",
+    "common",
+  ]
+}
+
 ohos_shared_library("libfsverity_utils") {
   sources = [
     "lib/compute_digest.c",
@@ -36,12 +43,9 @@ ohos_shared_library("libfsverity_utils") {
     "lib/sign_digest.c",
     "lib/utils.c",
   ]
-  include_dirs = [
-    "include",
-    "common",
-  ]
   deps = [ "//third_party/openssl:libcrypto_shared" ]
   configs = [ ":common_config" ]
+  public_configs = [ ":libfsverity_public_config" ]
   install_enable = true
 
   output_name = "libfsverity_utils"
