@@ -43,7 +43,7 @@ ohos_shared_library("libfsverity_utils") {
     "lib/sign_digest.c",
     "lib/utils.c",
   ]
-  deps = [ "//third_party/openssl:libcrypto_shared" ]
+  external_deps = [ "openssl:libcrypto_shared" ]
   configs = [ ":common_config" ]
   public_configs = [ ":libfsverity_public_config" ]
   install_enable = true
