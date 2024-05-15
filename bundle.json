@@ -24,9 +24,7 @@
             "third_party": []
         },
         "build": {
-            "sub_component": [
-                "//third_party/fsverity-utils:fsverity-utils"
-            ],
+            "sub_component": [],
             "inner_kits": [
                 {
                     "header" : {
