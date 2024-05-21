@@ -27,13 +27,6 @@
             "sub_component": [],
             "inner_kits": [
                 {
-                    "header" : {
-                        "header_base": [
-                            "//third_party/fsverity-utils/include",
-                            "//third_party/fsverity-utils/common"
-                        ],
-                        "header_files": []
-                    },
                     "name" : "//third_party/fsverity-utils:libfsverity_utils"
                 }
             ],
