@@ -67,5 +67,5 @@ ohos_static_library("libfsverity_utils_static") {
     "common",
   ]
   configs = [ ":common_config" ]
-  deps = [ "//third_party/openssl:libcrypto_static" ]
+  external_deps = [ "openssl:libcrypto_static" ]
 }
